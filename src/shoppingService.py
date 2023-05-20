@@ -154,7 +154,7 @@ class ShoppingService:
         
         print(ids)
 
-        if not ids.any():
+        if  ids is None:
             return None,None,0,0
         else:
             if self.id in ids:
